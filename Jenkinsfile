@@ -55,7 +55,7 @@ pipeline {
                     sh 'docker version'
                     sh 'docker build -t devopswithdeepak-docker-webapp-demo .'
                     sh 'docker image list'
-                    sh 'docker tag devopswithdeepak-docker-webapp-demo deepak2717/devopswithdeepak-docker-webapp-demo:devopswithdeepak-docker-webapp-demo'
+                    sh 'docker tag devopswithdeepak-docker-webapp-demo nihal2309/devopswithdeepak-docker-webapp-demo:devopswithdeepak-docker-webapp-demo'
 		
                }
           }
