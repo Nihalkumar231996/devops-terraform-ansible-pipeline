@@ -69,7 +69,7 @@ pipeline {
 
          stage("Push Image to Docker Hub"){
                steps {
-                     sh 'docker push  deepak2717/devopswithdeepak-docker-webapp-demo:devopswithdeepak-docker-webapp-demo'
+                     sh 'docker push  nihal2309/devopswithdeepak-docker-webapp-demo:devopswithdeepak-docker-webapp-demo'
                 }
          }
          stage('Plan') {
