@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "devops-terrafom-backend"
+    bucket = "nihal14042014"
     key    = "project/remote.tfstate"
     region = "us-east-1"
   }
